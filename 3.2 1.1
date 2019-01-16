@@ -93,7 +93,6 @@ int vierGewinntCheck(char **spielfeld, char spielstein){
     for(z=7;z>=1;z=z-2){
         if(spielfeld[z][s]==spielstein){
             cross++;
-            printf("z=%i\ns=%i\ncross=%i\n",z,s,cross);
             s=s+2;
         }
     }
